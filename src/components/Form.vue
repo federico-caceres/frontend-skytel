@@ -106,6 +106,7 @@
             },
             validateForm: function(e){
                 this.errors = [];
+                this.token = null;
 
                 if ( !this.form.nombre) {
                     this.errors.push('Debes agregar el nombre!');
